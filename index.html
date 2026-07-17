@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanmukh Chennuboina - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for UI Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Devicon for Tech Stack Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-wrapper">
+        <div class="bg-gradient"></div>
+        <div class="bg-grid"></div>
+        <!-- Decorative glowing orbs -->
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">SC.</div>
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-regular fa-sun"></i>
+                </button>
+            </div>
+            <a href="resume july.pdf" download="Shanmukh_Chennuboina_Resume.pdf" class="btn btn-outline download-btn">
+                Download Resume 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="download-icon"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            </a>
+        </nav>
+
+        <!-- Hero Section -->
+        <main class="hero" id="home">
+            <div class="hero-content">
+                <p class="greeting">Hey, I'm</p>
+                <h1 class="name">
+                    <span class="gradient-text">Shanmukh</span><br>
+                    <span class="white-text">Chennuboina</span>
+                </h1>
+                <h2 class="titles">
+                    <span class="purple-text">Aspiring AI Engineer</span> <span class="divider">|</span> 
+                    <span class="purple-text">Problem Solver</span> <span class="divider">|</span> 
+                    <span class="purple-text">Builder</span>
+                </h2>
+                
+                <p class="description">
+                    I build intelligent, user-focused solutions that blend<br>
+                    technology with creativity to solve real-world problems.<br>
+                    Always learning. Always building.
+                </p>
+                
+                <div class="cta-group">
+                    <a href="#" class="btn btn-primary">
+                        View My Work 
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline contact-btn">
+                        Contact Me 
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                </div>
+                
+                <div class="tech-stack">
+                    <p class="tech-title">Tech Stack</p>
+                    <div class="icons">
+                        <i class="devicon-python-plain colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-cplusplus-plain colored"></i>
+                        <i class="devicon-flutter-plain colored"></i>
+                        <i class="devicon-html5-plain colored"></i>
+                        <i class="devicon-css3-plain colored"></i>
+                        <i class="devicon-firebase-plain colored"></i>
+                        <i class="devicon-github-original white-icon"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image-wrapper">
+                <img src="hero%20image.png" alt="AI Canvas Hero" class="hero-image">
+            </div>
+
+            <div class="hero-quote-section">
+                <div class="quote-container">
+                    <span class="quote-mark">“</span>
+                    <p class="quote-text">Code is my language,<br>AI is my canvas.</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="about-content">
+                <!-- Floating Avatar -->
+                <div class="floating-avatar" id="interactive-avatar">
+                    <img src="avater.png" alt="Avatar">
+                    <div class="chat-bubble" id="avatar-chat-bubble">
+                        <strong>Handsome as hell.</strong><br>
+                        Professional overthinker.<br>
+                        <em>"Still figuring life out... one project at a time."</em>
+                    </div>
+                </div>
+                
+                <div class="about-badge">
+                    <span class="dot"></span> ABOUT ME
+                </div>
+                <h2 class="about-heading">
+                    Curious Mind.<br>
+                    Constant Learner.<br>
+                    <span class="purple-text">Purpose Driven.</span>
+                </h2>
+                <div class="separator-line"></div>
+                
+                <p class="about-description">
+                    I'm a second-year CSE (AIML) student at Presidency University, passionate about AI, full-stack development, and building products that make an impact.
+                </p>
+                <p class="about-description">
+                    From hackathons to personal projects, I love turning ideas into real-world solutions.
+                </p>
+                
+                <a href="#" class="btn btn-outline about-btn">
+                    Know More About Me 
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-chevron-right chevron-icon"></i>
+                </a>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <i class="fa-solid fa-graduation-cap stat-icon"></i>
+                        <h3>2</h3>
+                        <p>Years<br>Learning</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fa-solid fa-bolt stat-icon"></i>
+                        <h3>15+</h3>
+                        <p>Projects<br>Built</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fa-solid fa-trophy stat-icon"></i>
+                        <h3>5+</h3>
+                        <p>Hackathons<br>Participated</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fa-solid fa-bullseye stat-icon"></i>
+                        <h3 class="stat-text">Impact</h3>
+                        <p>Driven<br>Always</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-cards-grid">
+                <!-- Card 1 -->
+                <div class="about-card glass-card">
+                    <div class="card-icon-wrapper">
+                        <i class="fa-solid fa-graduation-cap card-icon"></i>
+                    </div>
+                    <h3 class="card-title">Education</h3>
+                    <div class="card-separator"></div>
+                    <p class="card-text">B.Tech CSE (AIML)</p>
+                    <p class="card-text">Presidency University</p>
+                    <p class="card-text card-date">2025 – 2029</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="about-card glass-card">
+                    <div class="card-icon-wrapper">
+                        <i class="fa-regular fa-star card-icon"></i>
+                    </div>
+                    <h3 class="card-title">Interests</h3>
+                    <div class="card-separator"></div>
+                    <p class="card-text">AI/ML, Web Dev, UI/UX</p>
+                    <p class="card-text">Anime, Books, Fitness</p>
+                    <p class="card-text">Space Tech, Robotics</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="about-card glass-card">
+                    <div class="card-icon-wrapper">
+                        <i class="fa-solid fa-code card-icon"></i>
+                    </div>
+                    <h3 class="card-title">Currently Learning</h3>
+                    <div class="card-separator"></div>
+                    <p class="card-text">Deep Learning</p>
+                    <p class="card-text">System Design</p>
+                    <p class="card-text">Data Structures & Algorithms</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="about-card glass-card">
+                    <div class="card-icon-wrapper">
+                        <i class="fa-regular fa-face-smile card-icon"></i>
+                    </div>
+                    <h3 class="card-title">Fun Fact</h3>
+                    <div class="card-separator"></div>
+                    <p class="card-text">I love world-building,</p>
+                    <p class="card-text">storytelling & turning</p>
+                    <p class="card-text">ideas into products.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="projects-header">
+                <div class="projects-title-area">
+                    <div class="about-badge">
+                        <span class="dot"></span> PROJECTS
+                    </div>
+                    <h2 class="about-heading">
+                        Things I've <span class="purple-text">Built</span>
+                    </h2>
+                    <p class="about-description" style="margin-bottom: 10px;">A collection of projects where ideas meet impact. ✨</p>
+                    <div class="separator-line" style="margin-bottom: 0;"></div>
+                </div>
+                <div class="projects-action-area">
+                    <a href="https://github.com/shanmukh-dotcom" target="_blank" class="btn btn-outline">
+                        View All Projects <i class="fa-solid fa-arrow-right" style="margin-left: 8px; font-size: 12px;"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-image-wrapper">
+                        <div class="project-number">01</div>
+                        <a href="#" class="project-external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <img src="career forge.png" alt="Career Forge" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title"><i class="fa-solid fa-gamepad project-icon"></i> Career Forge</h3>
+                        <p class="project-desc">Gamified learning platform that turns YouTube tutorials into skill-building quests.</p>
+                        <div class="project-tags">
+                            <span class="tag">Web</span>
+                            <span class="tag">Gamification</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-image-wrapper">
+                        <div class="project-number">02</div>
+                        <a href="#" class="project-external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <img src="smart campus buddy.png" alt="Smart Campus Buddy" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title"><i class="fa-solid fa-robot project-icon"></i> Smart Campus Buddy</h3>
+                        <p class="project-desc">AI-powered campus assistant with navigation, lost & found, issue reporting & more.</p>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card">
+                    <div class="project-image-wrapper">
+                        <div class="project-number">03</div>
+                        <a href="#" class="project-external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <img src="vs code extension.png" alt="VS Code AI Extension" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title"><i class="fa-solid fa-code project-icon"></i> VS Code AI Extension</h3>
+                        <p class="project-desc">Productivity booster extension with AI code suggestions, explanations & docs.</p>
+                        <div class="project-tags">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">VS Code</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card">
+                    <div class="project-image-wrapper">
+                        <div class="project-number">04</div>
+                        <a href="#" class="project-external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <img src="healthsphere.png" alt="HealthSphere" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title"><i class="fa-solid fa-heart-pulse project-icon"></i> HealthSphere</h3>
+                        <p class="project-desc">AI-powered health report analyzer that provides smart insights and suggestions.</p>
+                        <div class="project-tags">
+                            <span class="tag">Web</span>
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">Healthcare</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card glass-card">
+                    <div class="project-image-wrapper">
+                        <div class="project-number">05</div>
+                        <a href="#" class="project-external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <img src="portfollio.png" alt="Interactive Portfolio" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title"><i class="fa-solid fa-gamepad project-icon"></i> Interactive Portfolio</h3>
+                        <p class="project-desc">A game-like 3D portfolio that tells my story through interactions & animations.</p>
+                        <div class="project-tags">
+                            <span class="tag">Three.js</span>
+                            <span class="tag">GSAP</span>
+                            <span class="tag">Web</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-footer-banner">
+                <i class="fa-solid fa-rocket banner-icon"></i>
+                <p class="banner-text">Each project is a step towards solving real problems with technology.<br>
+                <span class="purple-text">More coming soon.</span> Stay tuned! 👀</p>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section class="certificates-section" id="certificates">
+            <div class="projects-header" style="margin-top: 80px;">
+                <div class="projects-title-area">
+                    <div class="about-badge">
+                        <span class="dot"></span> MILESTONES
+                    </div>
+                    <h2 class="about-heading">
+                        Licenses & <span class="purple-text">Certifications</span>
+                    </h2>
+                </div>
+            </div>
+
+            <div class="certificates-wrapper">
+                <div class="certificates-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card glass-card" style="--brand-color: #4285F4;">
+                        <div class="cert-badge">01</div>
+                        <a href="#" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <div class="cert-logo-box">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg" alt="Google">
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="brand-name">Google</h4>
+                            <h3 class="cert-title">Google Analytics<br>Individual Qualification</h3>
+                            <div class="cert-tag">Analytics</div>
+                            <div class="cert-date"><i class="fa-regular fa-calendar"></i> 2024</div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/shanmukha-chennuboina-7a61073a9/" target="_blank" class="btn btn-outline cert-btn">View Credential <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card glass-card" style="--brand-color: #76B900;">
+                        <div class="cert-badge">02</div>
+                        <a href="#" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <div class="cert-logo-box">
+                            <img src="https://cdn.simpleicons.org/nvidia/76B900" alt="NVIDIA">
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="brand-name">NVIDIA</h4>
+                            <h3 class="cert-title">Getting Started with<br>AI on Jetson Nano</h3>
+                            <div class="cert-tag">AI / Embedded</div>
+                            <div class="cert-date"><i class="fa-regular fa-calendar"></i> 2024</div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/shanmukha-chennuboina-7a61073a9/" target="_blank" class="btn btn-outline cert-btn">View Credential <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card glass-card" style="--brand-color: #0530AD;">
+                        <div class="cert-badge">03</div>
+                        <a href="#" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <div class="cert-logo-box">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" style="width: 75%;">
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="brand-name">IBM SkillsBuild</h4>
+                            <h3 class="cert-title">Build an<br>AI Agent</h3>
+                            <div class="cert-tag">AI / Generative AI</div>
+                            <div class="cert-date"><i class="fa-regular fa-calendar"></i> 2024</div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/shanmukha-chennuboina-7a61073a9/" target="_blank" class="btn btn-outline cert-btn">View Credential <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Cert 4 -->
+                    <div class="cert-card glass-card" style="--brand-color: #8A2BE2;">
+                        <div class="cert-badge">04</div>
+                        <a href="#" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <div class="cert-logo-box">
+                            <i class="fa-brands fa-free-code-camp" style="font-size: 40px; color: white;"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="brand-name">University of Helsinki</h4>
+                            <h3 class="cert-title">Elements<br>of AI</h3>
+                            <div class="cert-tag">Artificial Intelligence</div>
+                            <div class="cert-date"><i class="fa-regular fa-calendar"></i> 2024</div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/shanmukha-chennuboina-7a61073a9/" target="_blank" class="btn btn-outline cert-btn">View Credential <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Cert 5 -->
+                    <div class="cert-card glass-card" style="--brand-color: #D1A47B;">
+                        <div class="cert-badge">05</div>
+                        <a href="#" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <div class="cert-logo-box">
+                            <img src="https://cdn.simpleicons.org/anthropic/D1A47B" alt="Anthropic" style="width: 50%;">
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="brand-name">Anthropic</h4>
+                            <h3 class="cert-title">AI Fluency:<br>Framework & Foundations</h3>
+                            <div class="cert-tag">AI Literacy</div>
+                            <div class="cert-date"><i class="fa-regular fa-calendar"></i> 2024</div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/shanmukha-chennuboina-7a61073a9/" target="_blank" class="btn btn-outline cert-btn">View Credential <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Cert 6 -->
+                    <div class="cert-card glass-card" style="--brand-color: #00A4EF;">
+                        <div class="cert-badge">06</div>
+                        <a href="#" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <div class="cert-logo-box">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft" style="width: 50%;">
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="brand-name">Microsoft</h4>
+                            <h3 class="cert-title">Unlocking AI<br>for Everyone (Beginner)</h3>
+                            <div class="cert-tag">AI Basics</div>
+                            <div class="cert-date"><i class="fa-regular fa-calendar"></i> 2024</div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/shanmukha-chennuboina-7a61073a9/" target="_blank" class="btn btn-outline cert-btn">View Credential <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Cert 7 -->
+                    <div class="cert-card glass-card" style="--brand-color: #FF9900;">
+                        <div class="cert-badge">07</div>
+                        <a href="#" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <div class="cert-logo-box">
+                            <i class="fa-brands fa-aws" style="font-size: 50px; color: #FF9900;"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="brand-name">AWS</h4>
+                            <h3 class="cert-title">Introduction to<br>Generative AI</h3>
+                            <div class="cert-tag">Generative AI</div>
+                            <div class="cert-date"><i class="fa-regular fa-calendar"></i> 2024</div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/shanmukha-chennuboina-7a61073a9/" target="_blank" class="btn btn-outline cert-btn">View Credential <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Cert 8 -->
+                    <div class="cert-card glass-card" style="--brand-color: #D1A47B;">
+                        <div class="cert-badge">08</div>
+                        <a href="#" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <div class="cert-logo-box">
+                            <img src="https://cdn.simpleicons.org/anthropic/D1A47B" alt="Anthropic" style="width: 50%;">
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="brand-name">Anthropic</h4>
+                            <h3 class="cert-title">Introduction to<br>Model Context Protocol</h3>
+                            <div class="cert-tag">AI Development</div>
+                            <div class="cert-date"><i class="fa-regular fa-calendar"></i> 2024</div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/shanmukha-chennuboina-7a61073a9/" target="_blank" class="btn btn-outline cert-btn">View Credential <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Cert 9 -->
+                    <div class="cert-card glass-card" style="--brand-color: #0096D6;">
+                        <div class="cert-badge">09</div>
+                        <a href="#" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <div class="cert-logo-box">
+                            <img src="https://cdn.simpleicons.org/hp/0096D6" alt="HP">
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="brand-name">HP LIFE</h4>
+                            <h3 class="cert-title">3D Printing<br>&nbsp;</h3>
+                            <div class="cert-tag">3D Technology</div>
+                            <div class="cert-date"><i class="fa-regular fa-calendar"></i> 2024</div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/shanmukha-chennuboina-7a61073a9/" target="_blank" class="btn btn-outline cert-btn">View Credential <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Cert 10 -->
+                    <div class="cert-card glass-card" style="--brand-color: #00EA64;">
+                        <div class="cert-badge">10</div>
+                        <a href="#" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <div class="cert-logo-box">
+                            <img src="https://cdn.simpleicons.org/hackerrank/00EA64" alt="HackerRank">
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="brand-name">HackerRank</h4>
+                            <h3 class="cert-title">Problem Solving<br>(Basic)</h3>
+                            <div class="cert-tag">Programming</div>
+                            <div class="cert-date"><i class="fa-regular fa-calendar"></i> 2024</div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/shanmukha-chennuboina-7a61073a9/" target="_blank" class="btn btn-outline cert-btn">View Credential <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Cert 11 -->
+                    <div class="cert-card glass-card" style="--brand-color: #00A4E4;">
+                        <div class="cert-badge">11</div>
+                        <a href="#" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <div class="cert-logo-box">
+                            <span style="color: #00A4E4; font-weight: 700; font-size: 18px; letter-spacing: 1px;">simplilearn</span>
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="brand-name">Simplilearn</h4>
+                            <h3 class="cert-title">Data Scientist<br>Course</h3>
+                            <div class="cert-tag">Data Science</div>
+                            <div class="cert-date"><i class="fa-regular fa-calendar"></i> 2024</div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/shanmukha-chennuboina-7a61073a9/" target="_blank" class="btn btn-outline cert-btn">View Credential <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Milestones Footer -->
+            <div class="milestones-footer">
+                <div class="milestones-left">
+                    <div class="medal-icon-box">
+                        <i class="fa-solid fa-medal"></i>
+                    </div>
+                    <div class="milestones-text">
+                        <h3>And more milestones...</h3>
+                        <p>Hackathons, competitions, and more achievements on the way.</p>
+                    </div>
+                </div>
+                <div class="milestones-right">
+                    <div class="milestone-box">
+                        <div class="milestone-icon-wrapper">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="milestone-info">
+                            <h4>CRACK-A-THON 2026</h4>
+                            <p>GDG On Campus<br>Presidency University</p>
+                        </div>
+                    </div>
+                    <div class="milestone-box">
+                        <div class="milestone-icon-wrapper">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="milestone-info">
+                            <h4>Project X 1.0</h4>
+                            <p>Mini Project Competition<br>Presidency University</p>
+                        </div>
+                    </div>
+                    <div class="milestone-box">
+                        <div class="milestone-icon-wrapper plus-border">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="milestone-info">
+                            <h4>More</h4>
+                            <p>Achievements<br>Coming Soon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="contact-content">
+                <div class="contact-left">
+                    <div class="about-badge">
+                        <span class="dot"></span> LET'S CONNECT
+                    </div>
+                    <h2 class="contact-heading">
+                        Let's Build<br>Something 
+                        <span class="purple-text" style="position: relative; display: inline-block;">
+                            Great! <i class="fa-regular fa-paper-plane" style="color: var(--purple-accent); font-size: 32px; transform: rotate(-15deg); position: relative; top: -5px;"></i>
+                            <svg class="scribble" width="120" height="20" viewBox="0 0 120 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute; bottom: -15px; left: 0;">
+                                <path d="M5 15C30 5 80 5 115 15" stroke="#6B40FF" stroke-width="3" stroke-linecap="round"/>
+                            </svg>
+                        </span>
+                    </h2>
+                    
+                    <p class="contact-desc">
+                        I'm open to <span class="purple-text" style="font-weight: 600;">internships</span>, <span class="purple-text" style="font-weight: 600;">collaborations</span>,<br>and exciting <span class="purple-text" style="font-weight: 600;">opportunities</span>.
+                    </p>
+
+                    <div class="contact-info-container">
+                        <div class="contact-line"></div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>EMAIL</h4>
+                                <p>chennuboinashanmukh@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>PHONE</h4>
+                                <p>+91 6301688507</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>LOCATION</h4>
+                                <p>Bangalore, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Avatar 2.0 -->
+                    <img src="avater 2.0.png" class="contact-avatar" alt="Floating Avatar">
+
+                    <div class="social-connect">
+                        <span class="social-text">Let's connect on <svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px; margin-right: 5px;">
+                            <path d="M2 15C10 15 15 5 25 5M25 5L20 2M25 5L22 10" stroke="#6B40FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg></span>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/shanmukha-chennuboina-7a61073a9/" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/shanmukh-dotcom" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/___s.h.a.n.m.u.k.h___?igsh=MXB2NGwzMGZibzZhbQ==" target="_blank" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social-btn"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="social-btn"><i class="fa-brands fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <div class="contact-form-card">
+                        <div class="form-header">
+                            <i class="fa-regular fa-comment-dots form-header-icon"></i>
+                            <div>
+                                <h3>Send a Message</h3>
+                                <p>I'll get back to you as soon as possible.</p>
+                            </div>
+                        </div>
+
+                        <form class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <i class="fa-regular fa-user form-icon"></i>
+                                    <input type="text" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <i class="fa-regular fa-envelope form-icon"></i>
+                                    <input type="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <i class="fa-solid fa-briefcase form-icon"></i>
+                                <input type="text" placeholder="Purpose" required>
+                            </div>
+                            <div class="form-group">
+                                <i class="fa-solid fa-pen form-icon"></i>
+                                <textarea placeholder="Your message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        <div class="form-footer-text">
+                            <i class="fa-regular fa-circle-check"></i> Your message is safe with me.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-logo">SC.</div>
+        <div class="footer-copyright">
+            &copy; 2025 Shanmukh Chennuboina. All rights reserved.<br>
+            Building the <span class="purple-text">future</span>, one line of <span class="purple-text">code</span> at a time.
+        </div>
+        <div class="footer-built">
+            Built with <i class="fa-solid fa-heart" style="color: #ff4b4b;"></i> and lots of <i class="fa-solid fa-mug-hot" style="color: #ffffff;"></i>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
